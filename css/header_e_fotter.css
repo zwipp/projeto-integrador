@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.corpoprincipal{
+    background-image: url(../img/fundo4.jpg);
+    display: flex;
+    justify-content: center; 
+}
+
+.corpocentro{
+    width: 960px;
+    background-color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+/*CABECALHO PRETO -------------------------------------------------------------------------------------*/
+
+.cabecalhopreto{
+    display: flex;
+}
+
+.cabecalho1{
+    background-color: black;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalhoesquerdo{
+    display: flex;
+    align-items: center;
+}
+
+.cabecalhodireito{
+    display: flex;
+    align-items: center;
+
+}
+
+.nome{
+    color: white;
+    margin: 0 0 0 5px;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.digitabusca{
+    color: white;
+    margin: 0 15px;
+}
+
+.busca{
+    width: 35px;
+    margin: 0 10px;
+}
+
+.botaologin{
+    color: white;
+    margin: 0px 10px;;
+}
+
+.perfil{
+    width: 50px;
+    margin: 0 10px 0 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.campobusca{
+    color: white;
+}
+
+/*CABECALHO LARANJA -------------------------------------------------------------------------------------*/
+
+.cabecalholaranja{
+    display: flex;
+}
+
+.botoesesquerdo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cabecalho2{
+    background-color: #f1af09;
+    width: 100%;
+    height: 75px;
+    display: flex;
+}
+
+.botoesprincipais{
+    display: flex;
+    width: 960px;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.botoes_cabecario_laranja{
+    color: black;
+    font-size: 25px;
+}
+
+.clickgeladeira{
+    width: 50px;
+}
+
+.geladeiracabecalho{
+    display: flex;
+    align-items: center;
+}
+
+/*FOOTER -------------------------------------------------------------------------------------------*/
+
+.footerprincipal{
+    width: 100%;
+    height: 250px;
+    background-color: #f1af09;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;;
+}
+
+.contatos div img{
+    width: 50px;
+}
+
+.iconicontato{
+    display: flex;
+    flex-direction: row;
+}
+
+.iconicontato img{
+    width: 50px;
+}
+
+.linhadivisao{
+    height: 100%;
+    width: 25px;
+}
+
+.iconispagamento{
+    width: 80px;   
+    margin: 2px;
+}
+
+.pagamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ajuda div ul li a{
+    font-size: 20px;
+    color: black;
+}

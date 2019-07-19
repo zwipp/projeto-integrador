@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/*corpo principal -----------------------------------------------------------------------------------------*/
+
+.corpoprincipal{
+    background-image: url(../img/fundo4.jpg);
+    display: flex;
+    justify-content: center; 
+}
+
+.corpocentro{
+    width: 960px;
+    background-color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.linhadeitada{
+    padding: 0;
+    margin: 0;
+    height: 25px;
+    width: 675px;
+}
+
+.titulobeneficios{
+    display: flex;
+    justify-content: space-around;
+}
+
+.beneficios1{
+    display: flex;
+    flex-direction: row;
+}
+
+.cerveja img{
+    width: 50px;
+}
+
+.frete img{
+    height: 50px;
+    margin-left: 5px;
+}
+
+.cerveja h3{
+    color: black;
+}
+
+.frete h3{
+    color: black;
+    margin-left: 15px;
+}
+
+.desconto h3{
+    color: black;
+    margin-left: 15px;
+    margin-left: 5px;
+}
+
+.itens h3{
+    color: black;
+    margin-left: 5px;
+}
+
+.cerveja{
+    background-color: orange;
+    border: 1px solid black;
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 70px;
+    padding: 5px;
+}
+
+.frete{
+    background-color: orange;
+    border: 1px solid black;
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+
+.beneficios2{
+    display: flex;
+    flex-direction: row;
+}
+
+.itens{
+    background-color: orange;
+    border: 1px solid black;
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 70px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.itens img{
+    height: 50px;
+    margin-left: 5px;
+}
+
+.desconto img{
+    height: 50px;
+    margin-left: 5px;
+}
+
+.desconto{
+    background-color: orange;
+    border: 1px solid black;
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.linhaseparacao{
+    width: 100%;
+    height: 20px;
+    margin-top: 25px;
+}
+
+.tiposassinaturas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.planos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.planos img{
+    width: 150px;
+    height: 210px;
+}
+
+.planos p{
+    padding: 5px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.comofunciona{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.faz{
+    width: 280px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: chocolate;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.faz img{
+    width: 45px;
+}
+
+.selecao{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: chocolate;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.selecao img{
+    width: 45px;
+}
+
+.entrega{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: chocolate;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.entrega img{
+    width: 45px;
+}
+
+.comofunciona div p{
+    font-weight: bold;
+}
+
+.assineja{
+    background-color: red;
+    padding: 10px;
+}
+.assineja a{
+    color: white;
+}

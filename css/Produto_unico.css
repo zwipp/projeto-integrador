@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/*CORPO PRINCIPAL --------------------------------------------------------------------------------------*/
+
+.corpoprincipal{
+    background-image: url(../img/fundo4.jpg);
+    display: flex;
+    justify-content: center; 
+}
+
+.corpocentro{
+    width: 960px;
+    background-color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.imagemsobre{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagensdoproduto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+}
+
+.imggrande{
+    width: 360px;
+    border: 2px solid black;
+}
+
+.imgpequena{
+    width: 75px;
+    height: 75px;
+    border: 2px solid black;
+    margin: 5px 0;
+}
+
+.star {
+    width: 25px;
+}
+
+.nomedoproduto{
+    color: orange;
+}
+
+.preco{
+    font-size: 50px;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+.textodoproduto{
+    display: flex;
+}
+
+.addgeladeira{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.colocargeladeira{
+    width: 75px;
+}
+
+.setacolocar{
+    width: 50px;
+}
+
+.numerodeitens{
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.colocargeladeiraquantidade{
+    display: flex;
+    align-items: center;
+}
+
+.addetirar{
+    display: flex;
+    align-items: center;
+}
+
+.colocartirar{
+    margin: 0px 10px;
+}
+
+.linhadeitada{
+    padding: 0;
+    margin: 0;
+    height: 25px;
+    width: 675px;
+}
+
+.calcularfrete{
+    border: solid 2px black;
+}
+
+.calcularfrete h3{
+    margin: 10px;
+    color: darkgrey;
+}

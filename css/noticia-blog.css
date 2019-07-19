@@ -1,0 +1,32 @@
+
+.titulo-blog{
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo-blog h2{
+    font-size: 35px;
+}
+
+.titulo-blog img{
+    height: 98px;
+    width: 100%;
+}
+
+.titulo-tipos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img-tipos img{
+    width: 75%;
+}
+
+.tipos, .img-tipos{
+    width: 50%;
+}
+
+.tipos h3{
+    font-size: 54px;
+}
